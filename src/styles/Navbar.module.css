@@ -17,7 +17,7 @@
   display: none;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 550px) {
   .hamburger {
     display: none;
   }

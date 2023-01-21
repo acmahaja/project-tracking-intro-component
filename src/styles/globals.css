@@ -19,6 +19,8 @@ html, body, #__next{
   width: 100%;
   font-family: 18px;
   font-family: 'Barlow Condensed', sans-serif;
+  overflow: clip;
+
 }
 
 #__next {
