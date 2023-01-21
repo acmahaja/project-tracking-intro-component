@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import {main} from '@/styles/Home.module.css'
+import {main, rectangle} from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
-import { useState } from "react";
 
 export default function Home() {
 
@@ -13,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <main className={main}>
+        <div className={rectangle}></div>
         <Navbar />
       </main>
     </>

@@ -21,6 +21,8 @@ html, body, #__next{
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-html {
-
+#__next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

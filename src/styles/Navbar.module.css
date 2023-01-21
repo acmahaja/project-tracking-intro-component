@@ -1,8 +1,11 @@
 .navbar {
   width: 100%;
+  max-width: 1110px;
   height: fit-content;
   padding: 38px 32px 0px 32px;
   box-sizing: border-box;
+
+
 
   display: flex;
   flex-direction: row;
@@ -49,3 +52,4 @@
     opacity: 0.15;
   }
 }
+
