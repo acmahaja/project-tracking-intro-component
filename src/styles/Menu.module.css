@@ -28,7 +28,7 @@
 
 .link {
   text-decoration: none;
-  color:var(--very-dark-blue);
+  color: var(--very-dark-blue);
 
   font-family: "Barlow Condensed", sans-serif;
   font-style: normal;
@@ -48,5 +48,11 @@
 }
 
 .linkMuted {
-  color: var(--grayish-blue);
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 650px) {
+  .menu{
+    display: none;
+  }
 }

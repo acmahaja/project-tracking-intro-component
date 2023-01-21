@@ -1,20 +1,19 @@
-import { navbar, logo, hamburger, links } from "@/styles/Navbar.module.css";
+import { navbar, logo, hamburger, links, link, dotBreak, linkMuted} from "@/styles/Navbar.module.css";
 import Image from "next/image";
 import { useState } from "react";
 import Menu from "./Menu";
 
-
 export default function Navbar() {
-    const [showMenu, setShowMenu] = useState(false)
-    
-    function toggleMenu() {
-        console.log(showMenu);
-        setShowMenu(!showMenu)
-        console.log(showMenu);
-    }
+  const [showMenu, setShowMenu] = useState(false);
 
-    return (
-    <div className={navbar }>
+  function toggleMenu() {
+    console.log(showMenu);
+    setShowMenu(!showMenu);
+    console.log(showMenu);
+  }
+
+  return (
+    <div className={navbar}>
       <Image
         src="/logo.svg"
         alt="Logo"
@@ -31,12 +30,24 @@ export default function Navbar() {
         height={24}
         className={hamburger}
         onClick={toggleMenu}
-
       />
-      <Menu display={showMenu}/> 
+      <Menu display={showMenu} />
 
-      
-      <div className={links}>asd</div>
+      <div className={links}>
+          <a className={link} href="#">
+            Product
+          </a>
+          <a className={link} href="#">
+            Features
+          </a>
+          <a className={link} href="#">
+            Pricing
+          </a>
+          <div className={dotBreak} />
+          <a className={`${link} ${linkMuted}`} href="#">
+            Login
+          </a>
+      </div>
     </div>
   );
 }
