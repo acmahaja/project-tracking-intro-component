@@ -23,8 +23,10 @@ export default function Navbar() {
         className={logo}
       />
 
+
       <Image
-        src="/icon-hamburger.svg"
+      
+        src={`${!showMenu ? "/icon-hamburger.svg" : "/icon-close.svg"}`}
         alt="Hamburger button"
         width={24}
         height={24}
