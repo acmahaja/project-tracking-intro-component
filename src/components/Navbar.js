@@ -5,7 +5,7 @@ import Menu from "./Menu";
 
 
 export default function Navbar() {
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(false)
     
     function toggleMenu() {
         console.log(showMenu);

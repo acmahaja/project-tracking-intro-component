@@ -28,7 +28,7 @@
 
 .link {
   text-decoration: none;
-  color: rgb(var(--very-dark-blue));
+  color:var(--very-dark-blue);
 
   font-family: "Barlow Condensed", sans-serif;
   font-style: normal;
@@ -40,13 +40,13 @@
   letter-spacing: 1.2px;
 }
 
-
 .line {
-  background-color: rgb(var(--red));
+  background-color: var(--grayish-blue);
+  opacity: 0.15;
   width: 100%;
   height: 1px;
 }
 
 .linkMuted {
-  color: rgb(var(--red));
+  color: var(--grayish-blue);
 }
