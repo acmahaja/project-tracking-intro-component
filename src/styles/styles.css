@@ -1,0 +1,13 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+:root {
+  /* Primary Colours */
+  --red: hsl(0, 100%, 68%);
+
+  /* Neutral Colours */
+  --very-dark-blue: hsl(230, 29%, 20%);
+  --dark-grayish-blue:: hsl(230, 11%, 40%);
+  --grayish-blue: hsl(231, 7%, 65%);
+  --light-grayish-blue: hsl(207, 33%, 95%);
+}

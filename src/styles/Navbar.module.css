@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  height: fit-content;
+  padding: 38px 32px 0px 32px;
+  box-sizing: border-box;
+
+  /* position: absolute; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: none;
+}
+
+@media only screen and (min-width: 650px) {
+  .navbar {
+    background: lightblue;
+  }
+
+  .hamburger { 
+    display: none;
+  }
+
+  .links {
+    display: block;
+  }
+  
+}
