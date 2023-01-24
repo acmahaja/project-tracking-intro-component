@@ -14,18 +14,15 @@ export default function Navbar() {
 
   return (
     <div className={navbar}>
-      <Image
+      <img
         src="/logo.svg"
         alt="Logo"
-        width={24}
-        height={24}
         priority
         className={logo}
       />
 
 
-      <Image
-      
+      <img
         src={`${!showMenu ? "/icon-hamburger.svg" : "/icon-close.svg"}`}
         alt="Hamburger button"
         width={24}

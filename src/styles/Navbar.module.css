@@ -14,6 +14,16 @@
   align-items: center;
 }
 
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.toggleMenu {
+  width: 24px;
+  height: 24px;
+}
+
 .links {
   display: none;
 }
@@ -25,6 +35,11 @@
 
   .hamburger {
     display: none;
+  }
+
+  .logo {
+    width: 31.15px;
+    height: 31.76px;
   }
 
   .links {
@@ -42,13 +57,13 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-    color:var(--very-dark-blue);
+    color: var(--very-dark-blue);
   }
 
   .linkMuted {
     opacity: 0.5;
   }
-  
+
   .dotBreak {
     background-color: var(--very-dark-blue);
     height: 6px;
@@ -57,4 +72,3 @@
     opacity: 0.15;
   }
 }
-

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import {
   Main,
   Rectangle,
@@ -26,14 +25,12 @@ export default function Home() {
       </Head>
       <div className={Rectangle}></div>
       <main className={Main}>
-        <Image
-          src="/illustration-devices.svg"
+        <img src="/illustration-devices.svg"  
           alt="Logo"
-          width={0}
-          height={0}
-
           className={SupportingIllustration}
+        
         />
+        
         <div className={Content}>
           <p className={Category}>
             <div className={New}>new</div>
