@@ -1,0 +1,148 @@
+.Main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.WelcomeSection {
+  position: absolute;
+  top: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 582px;
+  width: fit-content;
+}
+
+.SupportingIllustration {
+  position: absolute;
+  top: 126px;
+  right: -139px;
+}
+
+.Content {
+  position: absolute;
+  top: 452px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 256px;
+  width: 100%;
+  padding: 0px 32px;
+  box-sizing: border-box;
+}
+
+.Category {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: var(--very-dark-blue);
+  text-transform: uppercase;
+  margin: 0px;
+  height: fit-content;
+  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.New {
+  height: 25px;
+  width: 48px;
+  border-radius: 12.5px;
+  background-color: var(--very-dark-blue);
+  margin-right: 16px;
+  color: white;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: right;
+  letter-spacing: 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  margin: 0px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: var(--very-dark-blue);
+  margin-bottom: 16px;
+}
+
+.Description {
+  font-family: "Barlow", sans-serif;
+  color: var(--very-dark-blue);
+  opacity: 0.75;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px;
+  margin-bottom: 27px;
+}
+
+.Buttons {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.Demo {
+  height: 40px;
+  width: 153px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--red);
+  color: white;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: right;
+  letter-spacing: 0.933333px;
+}
+
+.Preview {
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.5px;
+
+  color: var(--very-dark-blue);
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 1000px) {
+  .WelcomeSection {
+    top: 220px;
+  }
+}

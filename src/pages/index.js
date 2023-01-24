@@ -12,48 +12,41 @@ import {
   Buttons,
   Demo,
   Preview,
-  SupportingIllustration
-  
+  SupportingIllustration,
 } from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Frontend Mentor | Project tracking intro component</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon-32x32.png" />
-      </Head>
+      </Head> */}
       <main className={Main}>
-        <div className={Rectangle}></div>
-        <section className={WelcomeSection}>
-          <div>
-            <Image
-              src="/illustration-devices.svg"
-              alt="Logo"
-              width={482}
-              height={246}
-              priority
-              className={SupportingIllustration}
-            />
-          </div>
+        {/* <div className={Rectangle}></div>*/}
+          <Image
+            src="/illustration-devices.svg"
+            alt="Logo"
+            width={482}
+            height={239}
+            priority
+            className={SupportingIllustration}
+          />
           <div className={Content}>
             <p className={Category}>
-              <span className={New}>new</span>monograh dashboard
+              <div className={New}>new</div>monograh dashboard
             </p>
             <h1 className={Title}>powerful insights into your team</h1>
-            <h2 className={Description}>Project planning and time trackingfor agile teams</h2>
+            <h2 className={Description}>
+              Project planning and time tracking for agile teams
+            </h2>
             <div className={Buttons}>
-              <div className={Demo}>
-                schedule a demo
-              </div>
-              <div className={Preview}>
-                to see a preview
-              </div>
+              <div className={Demo}>schedule a demo</div>
+              <div className={Preview}>to see a preview</div>
             </div>
           </div>
-        </section>
         <Navbar />
       </main>
     </>
