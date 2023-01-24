@@ -2,9 +2,11 @@
   width: 100%;
   max-width: 1110px;
   height: fit-content;
-  padding: 38px 32px 0px 32px;
   box-sizing: border-box;
 
+  padding: 0px 32px;
+  position: absolute;
+  top: 38px;
 
   display: flex;
   flex-direction: row;
@@ -17,6 +19,10 @@
 }
 
 @media only screen and (min-width: 550px) {
+  .navbar {
+    top: 64px;
+  }
+
   .hamburger {
     display: none;
   }

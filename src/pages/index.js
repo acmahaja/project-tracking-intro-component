@@ -3,9 +3,9 @@ import Image from "next/image";
 import {
   Main,
   Rectangle,
-  WelcomeSection,
   Content,
   Category,
+  CategoryName,
   New,
   Title,
   Description,
@@ -25,28 +25,29 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head> */}
       <main className={Main}>
-        {/* <div className={Rectangle}></div>*/}
-          <Image
-            src="/illustration-devices.svg"
-            alt="Logo"
-            width={482}
-            height={239}
-            priority
-            className={SupportingIllustration}
-          />
-          <div className={Content}>
-            <p className={Category}>
-              <div className={New}>new</div>monograh dashboard
-            </p>
-            <h1 className={Title}>powerful insights into your team</h1>
-            <h2 className={Description}>
-              Project planning and time tracking for agile teams
-            </h2>
-            <div className={Buttons}>
-              <div className={Demo}>schedule a demo</div>
-              <div className={Preview}>to see a preview</div>
-            </div>
+        <div className={Rectangle}></div>
+        <Image
+          src="/illustration-devices.svg"
+          alt="Logo"
+          width={482}
+          height={239}
+          priority
+          className={SupportingIllustration}
+        />
+        <div className={Content}>
+          <p className={Category}>
+            <div className={New}>new</div>
+            <div className={CategoryName}>monograh dashboard</div>
+          </p>
+          <h1 className={Title}>powerful insights into your team</h1>
+          <h2 className={Description}>
+            Project planning and time tracking for agile teams
+          </h2>
+          <div className={Buttons}>
+            <div className={Demo}>schedule a demo</div>
+            <div className={Preview}>to see a preview</div>
           </div>
+        </div>
         <Navbar />
       </main>
     </>

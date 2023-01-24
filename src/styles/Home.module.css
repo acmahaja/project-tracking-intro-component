@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+  max-width: 1110px;
 }
 
 .WelcomeSection {
@@ -68,6 +69,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.CategoryName {
+  opacity: 0.75;
 }
 
 .Title {
@@ -141,8 +146,75 @@
   opacity: 0.5;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 955px) {
+  .SupportingIllustration {
+    top: 220px;
+    right: -325px;
+    width: 916px;
+    max-height: 455px;
+    height: 45%;
+  }
+
+  .Content {
+    top: 258px;
+    left: 0px;
+    width: 470px;
+    padding: 0px;
+    padding-left: 32px;
+  }
+
   .WelcomeSection {
     top: 220px;
+  }
+
+  .Category {
+    margin-bottom: 20px;
+  }
+
+  .Title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 64px;
+    margin-bottom: 32px;
+  }
+
+  .Description {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 267px;
+
+    margin-bottom: 64px;
+  }
+
+  .Buttons {
+    width: 381px;
+  }
+
+  .Demo {
+    height: 48px;
+    width: 184px;
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 1.06667px;
+  }
+
+  .Preview {
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    
   }
 }
