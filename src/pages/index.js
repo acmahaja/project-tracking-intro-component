@@ -19,19 +19,19 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>Frontend Mentor | Project tracking intro component</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon-32x32.png" />
-      </Head> */}
+      </Head>
+      <div className={Rectangle}></div>
       <main className={Main}>
-        <div className={Rectangle}></div>
         <Image
           src="/illustration-devices.svg"
           alt="Logo"
-          width={482}
-          height={239}
-          priority
+          width={0}
+          height={0}
+
           className={SupportingIllustration}
         />
         <div className={Content}>

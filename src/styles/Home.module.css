@@ -20,6 +20,9 @@
   position: absolute;
   top: 126px;
   right: -139px;
+  width: 482px;
+height: 239px;
+
 }
 
 .Content {
@@ -130,6 +133,19 @@
   letter-spacing: 0.933333px;
 }
 
+.Rectangle{
+  height: 425px;
+  width: calc(50%);
+  
+  background: hsla(204, 32%, 95%, 1);
+
+  position: absolute;
+  z-index: -1;
+
+  border-radius: 0px 0px 0px 60px;
+  right: -15px;
+}
+
 .Preview {
   font-family: "Barlow Condensed", sans-serif;
   font-style: normal;
@@ -146,7 +162,28 @@
   opacity: 0.5;
 }
 
+@media only screen and (min-width: 650px) {
+
+  .rectangle{
+    height: 427px;
+    width: calc(50% - 14px);
+    
+    border-radius: 0px 0px 0px 60px;
+    right: -15px;
+  }
+  
+}
+
 @media only screen and (min-width: 955px) {
+
+  .rectangle{
+    height: 427px;
+    width: calc(50%);
+    
+    border-radius: 0px 0px 0px 60px;
+    right: -15px;
+  }
+
   .SupportingIllustration {
     top: 220px;
     right: -325px;
