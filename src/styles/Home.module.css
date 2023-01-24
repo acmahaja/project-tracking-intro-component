@@ -21,8 +21,7 @@
   top: 126px;
   right: -139px;
   width: 482px;
-height: 239px;
-
+  height: 239px;
 }
 
 .Content {
@@ -133,10 +132,10 @@ height: 239px;
   letter-spacing: 0.933333px;
 }
 
-.Rectangle{
+.Rectangle {
   height: 425px;
   width: calc(50%);
-  
+
   background: hsla(204, 32%, 95%, 1);
 
   position: absolute;
@@ -163,23 +162,20 @@ height: 239px;
 }
 
 @media only screen and (min-width: 650px) {
-
-  .rectangle{
+  .rectangle {
     height: 427px;
     width: calc(50% - 14px);
-    
+
     border-radius: 0px 0px 0px 60px;
     right: -15px;
   }
-  
 }
 
 @media only screen and (min-width: 955px) {
-
-  .rectangle{
+  .rectangle {
     height: 427px;
     width: calc(50%);
-    
+
     border-radius: 0px 0px 0px 60px;
     right: -15px;
   }
@@ -189,7 +185,6 @@ height: 239px;
     right: -325px;
     width: 916px;
     height: 455px;
-    
   }
 
   .Content {
@@ -197,7 +192,6 @@ height: 239px;
     left: 0px;
     width: 470px;
     padding: 0px;
-    padding-left: 32px;
   }
 
   .WelcomeSection {
@@ -252,6 +246,5 @@ height: 239px;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 5px;
-    
   }
 }

@@ -28,7 +28,6 @@ export default function Home() {
         <img src="/illustration-devices.svg"  
           alt="Logo"
           className={SupportingIllustration}
-        
         />
         
         <div className={Content}>
