@@ -11,7 +11,8 @@ import {
   Description,
   Buttons,
   Demo,
-  Preview
+  Preview,
+  SupportingIllustration
   
 } from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
@@ -27,13 +28,14 @@ export default function Home() {
       <main className={Main}>
         <div className={Rectangle}></div>
         <section className={WelcomeSection}>
-          <div id="supportinIllustration">
+          <div>
             <Image
               src="/illustration-devices.svg"
               alt="Logo"
               width={482}
               height={246}
               priority
+              className={SupportingIllustration}
             />
           </div>
           <div className={Content}>
